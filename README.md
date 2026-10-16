@@ -1,4 +1,4 @@
-﻿# HOTEL_BOOKING
+﻿
 # 🏨 Hotel Booking Website
 
 A full-stack Hotel Booking Web Application built using React.js,
