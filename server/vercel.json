@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+  {
+=======
+{
+>>>>>>> 8ef9fabb9690eda72a19ac335795864f31d5de02
+    "version": 2,
+    "builds":[
+        {
+            "src":"server.js",
+            "use": "@vercel/node",
+            "config": {
+                "includeFiles": [
+                    "dist/**"
+                ]
+            }
+        
+        }
+    
+],
+    
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "server.js"
+        }
+     ]
+   }
